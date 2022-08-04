@@ -1762,7 +1762,7 @@
     let rand = dict[Math.floor(Math.random() * dict.length)];
     let com = "Базовый"
 
-    let token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhMDkxNmI5OWY4NjdkY2VkMjJhZTQ5ZDcwNmU1NWUzMmZkOTg0ZDFlNWE0YTFkOTc0ZmU2MTA4YTY4MjZkNGU0NTM5YmU5MjcwMDQyNjI5OCIsImF1ZCI6IlZQUyIsImV4cCI6MTY1ODE0MDE3MSwiaWF0IjoxNjU4MDUzNzYxLCJpc3MiOiJLRVlNQVNURVIiLCJ0eXBlIjoiQmVhcmVyIiwianRpIjoiMDk3YjI2MTItOTI4MS00M2U3LWIwMzQtZTEyZjNjOTYxMWM0Iiwic2lkIjoiOWE4MTUzYTAtMjRmMy00Zjg2LWFiMzktNTI1MjQxYWU5NGRmIn0.OORtMFeg0YQQQ1NTFSCN3gZPVWs7gyPSPGsl53p_TA-PL7rg3sCwlPl3Y-OIL7lOEOAooR7O5i_JDW_hhGK4OdSmMjOc-XYV9onFYa-XuA-gFtj3fvDCJSVYEnP9nouqhQXXcIPEk5qyDsWYN4J9t0AqFin9A-Z2WMR8dJlSCAJaxDbhCZF6LH5tR_gRtOaGdewb5SRJIdMrVhNtfyCSaoxsT7DSh_NV60G-fd0oXzGfv6fQrLEv7WU6mWlspXFOjLBbm7qYhvp8WIkgdnjacmcoibY9mwv_01Dl9T85jfIovfz8rQ7kn5FQ7dBpTXhlwzk6L8Fz1f5AL-9Ics993ffAvsxbEJ0TMMvPmBtxMMosMCTIjEHyinVEjIFS79plLmNKeaIhYLLkOoRBXuKtMSeVv3I3wII5dhOb02R3fH3yJcEKDbvkNEnvHjQv72yO_0N2YYMBbZsYs6xqwiBSEqONcpWmt07XyGwmnoNAoejLdBclkRBNBhTnoj_IoT0S4gg-7VKHSO6rVitJanSCFykPz_y-1ytZbKRgqpTCbL-V2qS-WxUvPbeW3hAWi8ftWd9rh0rRJZPvweW9cQBd_i555dfn4ByG6I-FESDosEwGek25PXqZsxtFl0lpfGmNWymbGLPy25BayrYAGyVPAX44y-hh-PnM-Bw0R8i0a3s";
+    let token = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmZjAwMWJlYjc4NjkyOThkZGRiY2FkOTQ5M2M2YzlkODAyN2E3ZGYzOGZlNWMxM2JkODYyNzFhZTZlZjA0YjVlODVkOGYiLCJhdWQiOiJWUFMiLCJleHAiOjE2NTk2ODg1MzUsImlhdCI6MTY1OTYwMjEyNSwiaXNzIjoiS0VZTUFTVEVSIiwidHlwZSI6IkJlYXJlciIsImp0aSI6IjcyYmM5ODYxLTRiMjMtNGZhMi1hOWM3LTQ4OTIzZjQ1NjVmYiIsInNpZCI6IjhmZGQ3YzI3LTNkZjktNDYzMi04NWJlLTNlNWY4YjQ5NGJkZiJ9.A1cxI2YRziyugtGJx5GAhf_d45ys6kmAm7GfWPNjMlNAbzXe1Qa25n1V35g4q4QEh8Jno9EZVGkaqSG4bKBLYhA7BW7mh3s15SXiZ79zhC8NYhUGzvl-flh3ygGXC5JEltWuAUG2UQqI4Iogt7IOmzcEDcRlidLbK0crfLSWjWaftIWexL2oEOh7OcvjwvBpNvbH6uRFmRF902dM0PmcKkFHwUfJmEPHzw5SKMPOf2Go1rmeJozJIRxYgyY0yTQxXLznjC1d663pTs6e4q_LAsyilMoMVXd5eByOn6D_pXtUq7iaWvvtFiCfW12I0Ap8iF3rVzIA_7vWBaS8RsFB6oKGnZvXDs00mtuffsdw2611Kxq7BmDbeNzRDgCKxfOr7eTXjQ6q0MwJY-AoFvqY5_WWdjkU43yIsS7BvG3Y5V-Jjlv2FsoAPtJ5vdxfKS299Bx25jnQbiAd1Yho3j39uTFuGCySYBkvQrvm1WHlbc5QDrWGzyeC-I3AyXom78Vt6VxYSDCF4WPRlXNMhayIWK9JY4-seq3rj7m49Y73wumUzuoXCg2Et_QtXzjJHCm2nIarn8XzyWZFclqLszLkMam5TgH59qjImjk5N9kC-CBMx1zKBzbmY9zcRy9Thx1WoIDcGW5KCNdHsOuHAVWll0BZZUNUSIPR3BxdzCkgqZ8";
 // Set the name of your SmartApp for activation
     let initPhrase = 'запусти Слова для Крокодила';
     let character = 'eva'; // default, before sber client gets state
@@ -1808,11 +1808,11 @@
                 } else if (event.smart_app_data.type === 'changemode') {
                     toggle();
                 } else if (event.smart_app_data.type === 'guessedwrong') {
-                    badcount();
-                    news();
+                        badcount();
+                        news();
                 } else if (event.smart_app_data.type === 'guessedright') {
-                    gcount();
-                    news();
+                        gcount();
+                        news();
                 } else if (event.smart_app_data.type === 'close') {
                     if (helpIsAsked)
                         helpIsAsked = false;
@@ -1857,18 +1857,22 @@
         });
     }
     const guessedright = () => {
+        if (visible) {
         assistant.sendData({
             action: {
                 action_id: 'guessedright'
             }
         });
     }
+    }
     const guessedwrong = () => {
+        if (visible) {
         assistant.sendData({
             action: {
                 action_id: 'guessedwrong'
             }
         });
+    }
     }
 
     let game = { score: 0, best: 0,};
