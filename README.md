@@ -17,6 +17,7 @@
 В приложении "Слова для Крокодила" используются следующие технологии:
 
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - язык программирования, который используется для разработки приложения;
+- [TypeScript](https://www.typescriptlang.org/docs/) - язык программирования, который используется для разработки приложения; 
 - [Dialute](https://github.com/Dikower/Dialute) - библиотека для создания интерфейсов на языке JavaScript;
 - [Svelte](https://svelte.dev/docs) - фреймворк для создания пользовательских интерфейсов;
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) и [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - языки разметки и стилей, которые используются для создания веб-страниц.
